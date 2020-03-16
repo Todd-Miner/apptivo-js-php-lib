@@ -1,0 +1,17 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="createContact.js"></script>
+</head>
+<body>
+	<form id="contactForm" onsubmit="event.preventDefault(); submitContactForm();">
+		<label for="firstName">First Name:</label> <input type="text" id="firstName"><br />
+		<label for="lastName">Last Name:</label> <input type="text" id="lastName"><br />
+		<label for="phone">Phone:</label> <input type="text" id="phone"><br />
+		<button>Submit</button>
+	</form>
+	<div id="statusMessage" style="display:none;">
+		Submitted!
+	</div>
+</body>
+</html>
